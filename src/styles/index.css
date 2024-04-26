@@ -10,3 +10,52 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.rectangle1{
+    height:150px;
+    width:50px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rectangle2{
+    height:500px;
+    width:200px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:0;
+    position:relative;
+    display:flex;
+    flex-direction: column;
+}
+.redCircle{
+    height:150px;
+    width:150px;
+    background-color:red;
+    border-radius:50%;
+    margin-left: 12%;
+    margin-top:5%;
+    
+
+}
+.yellowCircle{
+    height:150px;
+    width:150px;
+    background-color:yellow;
+    border-radius:50%;
+    margin-left: 12%;
+    margin-top:5%;
+    
+}
+.greenCircle{
+    height:150px;
+    width:150px;
+    background-color:green;
+    border-radius:50%;
+    margin-left: 12%;
+    margin-top:5%;
+}
+.glow{
+    box-shadow: 0px 0px 10px 10px #00a9cb;
+}
